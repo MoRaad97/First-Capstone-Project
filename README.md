@@ -4,8 +4,6 @@
 
 > portfolio is one of the most powerful tools in your software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer.
 
-### Original design idea by [Cindy Shin in Behance.](https://www.behance.net/adagio07).
-
 ## Built With
 
 - HTML
@@ -46,6 +44,9 @@ Give a ⭐️ if you like this project!
 - Microverse Team.
 - Micronaots.
 - My partners in Microverse.
+
+## Design idea
+Original design idea by [Cindy Shin in Behance.](https://www.behance.net/adagio07).
 
 ## 📝 License
 This project is [MIT](./MIT.md) licensed.
