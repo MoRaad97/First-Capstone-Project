@@ -6,13 +6,4 @@
     --coco-font-:'COCOGOOSE', sans-serif;
     --lato-font-:'Lato', sans-serif;
 }
-
 /* global variables */
-h1 {
-    font-family: var(--coco-font-);
-font-weight: 300;
-}
-p {
-    font-family: var(--lato-font-);
-    font-weight: 100;
-}
