@@ -1,51 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio Website
 
-> Description the project.
+> portfolio is one of the most powerful tools in your software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer.
 
+### Original design idea by [Cindy Shin in Behance.](https://www.behance.net/adagio07).
 
 ## Built With
 
-- Html
-- Css 
+- HTML
+- CSS
+- JavaScript
 - Bootstrap
-- Javascript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://moraad97.github.io/portfolio-website-Microverse-project/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple steps.
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the project `$ git clone git@github.com:MoRaad97/First-Capstone-Project.git`
 
 ## Authors
 
 👤 **Mohammed Raad**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MoRaad97](https://github.com/MoRaad97)
+- Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
+- LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-600176210)
 
 ## 🤝 Contributing
 
@@ -59,10 +43,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse Team.
+- Micronaots.
+- My partners in Microverse.
 
 ## 📝 License
-
 This project is [MIT](./MIT.md) licensed.
+
+

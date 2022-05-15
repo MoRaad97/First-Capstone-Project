@@ -1,0 +1,18 @@
+/* global variables */
+:root {
+    --color-one-: #272A31;
+    --color-two-: #Ec5242;
+    --color-Three-: #d3d3d3;
+    --coco-font-:'COCOGOOSE', sans-serif;
+    --lato-font-:'Lato', sans-serif;
+}
+
+/* global variables */
+h1 {
+    font-family: var(--coco-font-);
+font-weight: 300;
+}
+p {
+    font-family: var(--lato-font-);
+    font-weight: 100;
+}
