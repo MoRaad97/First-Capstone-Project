@@ -17,9 +17,9 @@
 ![screen-two](/screenshots/ScreenShot_20220519163616.png)
 ![screen-three](/screenshots/ScreenShot_20220519163037.png)
 
-## Description
+## Design Description
 
-Check out the design with this short [video](link)
+Watch this short [video](https://www.loom.com/share/2ce0bda75ef64a9f9c574c061c09fd52)
 
 ## Live Demo
 
