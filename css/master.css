@@ -55,7 +55,7 @@
   width: 100%;
   position: fixed;
   height: 100vh;
-  background-color: white;
+  background-color: transparent;
   background-image: url(../imgs/footer-bar.svg);
   background-position: bottom 10px center;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@
   height: 50px;
   display: flex;
   flex-direction: row-reverse;
-  background-color: rgba(60, 58, 57, 1);
+  background-color: rgba(60, 58, 57, 0.98);
 }
 
 .close-btn-wrapper .close-btn {
@@ -78,7 +78,7 @@
 }
 
 .menu .links-con {
-  background-color: rgba(60, 58, 57, 1);
+  background-color: rgba(60, 58, 57, 0.98);
   height: 85vh;
   padding: 15px;
 }
