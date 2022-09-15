@@ -1,26 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Bootstrap Css file -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- FontsAwesome Css file -->
-<link rel="stylesheet" href="css/all.min.css">
-<!-- Master Css file -->
-    <link rel="stylesheet" href="css/master.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FontsAwesome Css file -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Master Css file -->
+    <link rel="stylesheet" href="css/master.css" />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-<link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
-                
-    <title>Document</title>
-</head>
-<body>
-    <h1>Let's Gooooooo!!!!!!!!!!!!!!</h1>
-    <p>I AM THE BEST</p>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+
+    <title>Ultimate Arabic front-end course 2022</title>
+  </head>
+  <body>
+    <!-- menu section -->
+    <section class="menu hidden">
+      <div class="close-btn-wrapper">
+        <button class="close-btn">
+          <img src="./imgs/close-button.svg" alt="close button" />
+        </button>
+      </div>
+      <div class="links-con">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#join">Join</a></li>
+          <li><a href="#sponsor">Sponsor</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- first nav section -->
+    <nav class="first-nav">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- main bar section -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand nav-logo" href="index.html"
+          ><img src="imgs/Ultimate-Course.png" alt="nav-logo"
+        /></a>
+        <button class="navbar-toggler p-0">
+          <i class="fa-solid fa-bars menu-btn"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#program"
+                >Program</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sponsor"
+                >Sponsor</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+          </ul>
+        </div>
+        <div class="comp-name">UC Campaign</div>
+      </div>
+    </nav>
+    <!-- header section -->
+    <section class="header">
+      <div class="container">
+        <section class="headline">
+          <h2 class="welcome">"Hello! Future Programers"</h2>
+          <h1 class="title">Ultimate Arabic front-end course 2022</h1>
+          <p class="first-p">
+            The ultimate front-end courses for arabic speakers, best Arabic
+            "speakers" in the web development that give you the tools and
+            knowledge to go further.
+          </p>
+
+          <h1 class="date">2022.5.25(WED) ~ 28(SAT)</h1>
+          <p class="sec-p">@ national museum Cairo center</p>
+        </section>
+      </div>
+    </section>
+    <!-- main program section -->
+    <section class="main-program" id="program">
+      <div class="container">
+        <h1 class="section-title">Main Program</h1>
+        <div class="cards-section d-grid gap-2 d-md-flex">
+          <div class="card">
+            <div
+              class="card-body text-success d-flex justify-content-between align-items-center flex-md-column justify-content-md-start"
+            >
+              <h5 class="card-icon"><i class="fa-brands fa-html5"></i></h5>
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">
+                HTML is the standard markup language for creating Web pages.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div
+              class="card-body text-success d-flex justify-content-between align-items-center flex-md-column justify-content-md-start"
+            >
+              <h5 class="card-icon"><i class="fa-brands fa-css3-alt"></i></h5>
+              <h5 class="card-title">Css</h5>
+              <p class="card-text">
+                CSS is the language we use to style an HTML document.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div
+              class="card-body text-success d-flex justify-content-between align-items-center flex-md-column justify-content-md-start"
+            >
+              <h5 class="card-icon"><i class="fa-brands fa-js"></i></h5>
+              <h5 class="card-title">Javascript</h5>
+              <p class="card-text">
+                JavaScript is the programming language of the Web.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div
+              class="card-body text-success d-flex justify-content-between align-items-center flex-md-column justify-content-md-start"
+            >
+              <h5 class="card-icon"><i class="fa-brands fa-bootstrap"></i></h5>
+              <h5 class="card-title">Frameworks</h5>
+              <p class="card-text">
+                A framework that is designed to support web applications
+                development
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div
+              class="card-body text-success d-flex justify-content-between align-items-center flex-md-column justify-content-md-start"
+            >
+              <h5 class="card-icon"><i class="fa-regular fa-clipboard"></i></h5>
+              <h5 class="card-title">Assignments</h5>
+              <p class="card-text">
+                Apply your knowledge on projects and assignments.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="join d-md-none">
+          <a href="#" class="join-link">Join The Ultimate Course</a>
+        </div>
+
+        <a href="#" class="see-link d-none d-md-block">See the Whole program</a>
+      </div>
+    </section>
+    <!-- feature speaker section -->
+
+    <!-- partner section -->
+    <section class="partners-section d-md-flex" id="sponsor">
+      <div class="container-sm">
+        <h1 class="section-title">Partners</h1>
+        <div class="partners-imgs">
+          <div class="img-box-1 d-flex justify-content-between d-md-inline">
+            <img class="partner-imgs" src="imgs/google.png" alt="google" />
+            <img class="partner-imgs" src="imgs/mozilla.png" alt="mozilla" />
+            <img
+              class="partner-imgs"
+              src="imgs/airbnb-logo.svg"
+              alt="airbnb-logo"
+            />
+          </div>
+          <div class="img-box-2 d-flex justify-content-around d-md-inline">
+            <img class="partner-imgs" src="imgs/10-hsoubar.webp" alt="hsoub" />
+            <img
+              class="partner-imgs"
+              src="imgs/microsoft.png"
+              alt="microsoft"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="container d-md-flex justify-content-md-center">
+        <div class="footer-content d-flex justify-content-between px-3">
+          <img class="footer-img" src="imgs/Ultimate-Course.png" alt="logo" />
+          <p>
+            Ultimate Arabic Frontend Course <br />
+            Some Right Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
