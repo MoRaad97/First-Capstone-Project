@@ -12,14 +12,13 @@
 - Bootstrap
 
 ## Screenshots
-
-![screen-one](/screenshots/ScreenShot_20220519163026.png)
-![screen-two](/screenshots/ScreenShot_20220519163616.png)
+![ScreenShot_20230105144346](https://user-images.githubusercontent.com/89518488/210773141-4063da9b-d610-4243-b8fc-86ba91e55dfb.png)
 ![screen-three](/screenshots/ScreenShot_20220519163037.png)
+![ScreenShot_20230105144448](https://user-images.githubusercontent.com/89518488/210773155-65fb8444-f6b4-4721-bac3-c8dbdc516740.png)
+![ScreenShot_20230105144735](https://user-images.githubusercontent.com/89518488/210773665-7ed132f9-c8b6-43ef-aa46-20347fa9e8db.png)
 
-## Design Description
-
-Watch this short [video](https://www.loom.com/share/2ce0bda75ef64a9f9c574c061c09fd52)
+## Video
+Short Presentation [Video](https://www.loom.com/share/2ce0bda75ef64a9f9c574c061c09fd52)
 
 ## Live Demo
 
